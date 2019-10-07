@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F9DFE3CC234B04DC001D23BD /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = F9DFE3CA234B04DC001D23BD /* JRSwizzle.h */; };
+		F9DFE3CC234B04DC001D23BD /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = F9DFE3CA234B04DC001D23BD /* JRSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9DFE3CD234B04DC001D23BD /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DFE3CB234B04DC001D23BD /* JRSwizzle.m */; };
 /* End PBXBuildFile section */
 
