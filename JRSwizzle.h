@@ -5,6 +5,13 @@
 
 #import <Foundation/Foundation.h>
 
+//! Project version number for JRSwizzle.
+FOUNDATION_EXPORT double JRSwizzleVersionNumber;
+
+//! Project version string for JRSwizzle.
+FOUNDATION_EXPORT const unsigned char JRSwizzleVersionString[];
+
+
 @interface NSObject (JRSwizzle)
 
 + (BOOL)jr_swizzleMethod:(SEL)origSel_ withMethod:(SEL)altSel_ error:(NSError**)error_;
